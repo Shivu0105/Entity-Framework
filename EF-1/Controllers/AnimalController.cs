@@ -106,9 +106,6 @@ namespace EF_1.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
-
-
 
 
         #region Day 1 Controller Code
