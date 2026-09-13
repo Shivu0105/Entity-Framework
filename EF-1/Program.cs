@@ -1,4 +1,7 @@
 
+using EF_1.Repository;
+using Microsoft.EntityFrameworkCore;
+
 namespace EF_1
 {
     public class Program
@@ -10,6 +13,14 @@ namespace EF_1
             // Add services to the container.
 
             builder.Services.AddControllers();
+
+
+            builder.Services.AddScoped<AnimalDB>();   // DI
+
+            // Registration of the DbContext with SQL Server connection string from appsettings.json
+            builder.Services.AddDbContext<AnimalDB>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
 
