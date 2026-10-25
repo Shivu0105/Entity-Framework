@@ -1,5 +1,6 @@
 ﻿using EF_1.Models;
 using EF_1.Repository;
+using EF_1.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,10 +11,10 @@ namespace EF_1.Controllers
     [ApiController]
     public class AnimalController : ControllerBase
     {
-        private readonly AnimalDB _animal;
-        public AnimalController(AnimalDB animal)
+        private readonly AnimalService _animalService;
+        public AnimalController(AnimalService animal)
         {
-            _animal = animal;
+            _animalService = animal;
         }
 
         [HttpGet]
@@ -23,8 +24,7 @@ namespace EF_1.Controllers
             {
                 // gettting data from DB using EF Core
 
-                var animalsData = await _animal.AnimalsTable.ToListAsync();
-
+                var animalsData = await _animalService.GetAnimalsAsync();
                 return Ok(animalsData);
 
             }
@@ -42,10 +42,9 @@ namespace EF_1.Controllers
             {
                 // Adding data to the DB using EF Core
 
-                _animal.AnimalsTable.Add(entity);
-                await _animal.SaveChangesAsync();
+               var result = await _animalService.AddAnimal(entity);
 
-                return Ok("Data Saved Successfully");
+                return Ok(result);
 
             }
             catch (Exception ex)
@@ -59,16 +58,8 @@ namespace EF_1.Controllers
         {
             try
             {
-                var entity = await _animal.AnimalsTable.FindAsync(id);
-                if (entity == null)
-                {
-                    return NotFound("Animal not found");
-                }
-
-                _animal.AnimalsTable.Remove(entity);
-                await _animal.SaveChangesAsync();
-
-                return Ok("Data Deleted Successfully");
+                var result = await _animalService.DeleteAnimal(id);
+                return Ok(result);
             }
             catch(Exception ex)
             {
@@ -82,24 +73,9 @@ namespace EF_1.Controllers
         {
             try
             {
-                var existingEntity = await _animal.AnimalsTable.FindAsync(id);
-                if (existingEntity == null)
-                {
-                    return NotFound("Animal not found");
-                }
+                var result = await _animalService.UpdateAnimal(id, entity);
 
-                
-
-                if (entity!=null)
-                {
-                    existingEntity.Name = entity.Name;
-                    existingEntity.Color = entity.Color;
-                }
-
-                _animal.AnimalsTable.Update(existingEntity);
-                await _animal.SaveChangesAsync();
-
-                return Ok("Data Updated Successfully");
+                return Ok(result);
             }
             catch(Exception ex)
             {
