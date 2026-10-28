@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\shiva\\source\\repos\\EF-1\\",
+  "WorkspaceRootPath": "C:\\Projects\\Animal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|c:\\users\\shiva\\source\\repos\\ef-1\\ef-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|c:\\projects\\animal\\ef-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|solutionrelative:ef-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|c:\\users\\shiva\\source\\repos\\ef-1\\ef-1\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|solutionrelative:ef-1\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|c:\\users\\shiva\\source\\repos\\ef-1\\ef-1\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|c:\\projects\\animal\\ef-1\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|solutionrelative:ef-1\\services\\animalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|c:\\users\\shiva\\source\\repos\\ef-1\\ef-1\\models\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|c:\\projects\\animal\\ef-1\\repository\\animaldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|solutionrelative:ef-1\\repository\\animaldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|c:\\projects\\animal\\ef-1\\models\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|solutionrelative:ef-1\\models\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|c:\\users\\shiva\\source\\repos\\ef-1\\ef-1\\repository\\animaldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|solutionrelative:ef-1\\repository\\animaldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|c:\\projects\\animal\\ef-1\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{636CE746-6E7B-0EEB-F4EC-6B3A40C0C4D6}|EF-1\\EF-1.csproj|solutionrelative:ef-1\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,52 +30,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Animals.cs",
+              "DocumentMoniker": "C:\\Projects\\Animal\\EF-1\\Models\\Animals.cs",
+              "RelativeDocumentMoniker": "EF-1\\Models\\Animals.cs",
+              "ToolTip": "C:\\Projects\\Animal\\EF-1\\Models\\Animals.cs",
+              "RelativeToolTip": "EF-1\\Models\\Animals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T17:04:37.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AnimalDB.cs",
+              "DocumentMoniker": "C:\\Projects\\Animal\\EF-1\\Repository\\AnimalDB.cs",
+              "RelativeDocumentMoniker": "EF-1\\Repository\\AnimalDB.cs",
+              "ToolTip": "C:\\Projects\\Animal\\EF-1\\Repository\\AnimalDB.cs",
+              "RelativeToolTip": "EF-1\\Repository\\AnimalDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T09:04:25.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AnimalService.cs",
-              "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\EF-1\\EF-1\\Services\\AnimalService.cs",
+              "DocumentMoniker": "C:\\Projects\\Animal\\EF-1\\Services\\AnimalService.cs",
               "RelativeDocumentMoniker": "EF-1\\Services\\AnimalService.cs",
-              "ToolTip": "C:\\Users\\shiva\\source\\repos\\EF-1\\EF-1\\Services\\AnimalService.cs",
+              "ToolTip": "C:\\Projects\\Animal\\EF-1\\Services\\AnimalService.cs",
               "RelativeToolTip": "EF-1\\Services\\AnimalService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAUwE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-25T14:28:54.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AnimalDB.cs",
-              "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\EF-1\\EF-1\\Repository\\AnimalDB.cs",
-              "RelativeDocumentMoniker": "EF-1\\Repository\\AnimalDB.cs",
-              "ToolTip": "C:\\Users\\shiva\\source\\repos\\EF-1\\EF-1\\Repository\\AnimalDB.cs",
-              "RelativeToolTip": "EF-1\\Repository\\AnimalDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T09:04:25.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Animals.cs",
-              "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\EF-1\\EF-1\\Models\\Animals.cs",
-              "RelativeDocumentMoniker": "EF-1\\Models\\Animals.cs",
-              "ToolTip": "C:\\Users\\shiva\\source\\repos\\EF-1\\EF-1\\Models\\Animals.cs",
-              "RelativeToolTip": "EF-1\\Models\\Animals.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T17:04:37.362Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\EF-1\\EF-1\\Program.cs",
+              "DocumentMoniker": "C:\\Projects\\Animal\\EF-1\\Program.cs",
               "RelativeDocumentMoniker": "EF-1\\Program.cs",
-              "ToolTip": "C:\\Users\\shiva\\source\\repos\\EF-1\\EF-1\\Program.cs",
+              "ToolTip": "C:\\Projects\\Animal\\EF-1\\Program.cs",
               "RelativeToolTip": "EF-1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -84,16 +98,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AnimalController.cs",
-              "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\EF-1\\EF-1\\Controllers\\AnimalController.cs",
+              "DocumentMoniker": "C:\\Projects\\Animal\\EF-1\\Controllers\\AnimalController.cs",
               "RelativeDocumentMoniker": "EF-1\\Controllers\\AnimalController.cs",
-              "ToolTip": "C:\\Users\\shiva\\source\\repos\\EF-1\\EF-1\\Controllers\\AnimalController.cs",
+              "ToolTip": "C:\\Projects\\Animal\\EF-1\\Controllers\\AnimalController.cs",
               "RelativeToolTip": "EF-1\\Controllers\\AnimalController.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAgwFMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T09:40:42.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-13T09:40:42.92Z"
             }
           ]
         }
